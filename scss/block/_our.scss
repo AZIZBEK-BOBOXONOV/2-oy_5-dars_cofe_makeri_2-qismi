@@ -1,0 +1,23 @@
+.our {
+  margin-bottom: 168px;
+}
+.our__conatiner {
+  display: $display;
+  align-items: center;
+  justify-content: center;
+}
+.our__img-block {
+  max-width: 440px;
+  margin-right: 125px;
+}
+.our__title {
+  @include style-title;
+  color: #333d4b;
+  margin-bottom: 32px;
+}
+.our__text {
+  @include style-text;
+  color: #333d4b;
+  opacity: 0.8;
+  max-width: 540px;
+}

@@ -1,0 +1,20 @@
+.hero {
+  padding-bottom: 168px;
+}
+.hero__block {
+  padding: 137px 0;
+  background-repeat: no-repeat;
+  background-image: url("../../img/hero-img.png");
+  border-radius: 10px;
+}
+.hero__title {
+  @include style-title;
+  margin-bottom: 24px;
+}
+.hero__text {
+@include style-text;
+  max-width: 445px;
+}
+.hero__content-block {
+  margin-left: 85px;
+}

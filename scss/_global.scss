@@ -1,0 +1,38 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  font-family: $font;
+  background-color: $color;
+}
+img{
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+ul,
+ol {
+  list-style: $style;
+  margin: 0;
+  padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+}
+a,ins{
+  text-decoration: $style;
+  display: inline-block;
+}
+.container {
+  max-width: 1320px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px
+}
